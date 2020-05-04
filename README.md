@@ -7,3 +7,5 @@ apt-get install nano unzip pkg-config gfortran libatlas-base-dev libfreetype6-de
 pip3 install cython numpy scipy matplotlib pandas scikit-learn bidict h5py biosppy
 
 sudo docker cp /home/pi/Desktop/v3.zip 2e78fe5c0ff3:/home
+
+../Train_models/myModel4/
