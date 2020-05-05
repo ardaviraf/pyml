@@ -12,5 +12,6 @@ sudo docker cp /home/pi/Desktop/v3.zip 2e78fe5c0ff3:/home
 
 python3 ECG_application.py s0 f1 p1 m1 RP4
 
-wget http://anzanpour.com/ml/v6.zip
+wget http://anzanpour.com/ml/v8.zip
+wget https://github.com/ardaviraf/pyml/raw/master/models/v6-arm-models.zip
 
