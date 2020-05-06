@@ -4,7 +4,7 @@ apt-get update
 
 apt-get install wget nano unzip pkg-config gfortran libatlas-base-dev libfreetype6-dev libblas-dev liblapack-dev python3 python3-pip libhdf5-dev
 
-pip3 install cython numpy scipy matplotlib pandas scikit-learn bidict h5py biosppy
+pip3 install cython numpy scipy matplotlib pandas scikit-learn bidict h5py biosppy python-periphery
 
 sudo docker cp /home/pi/Desktop/v3.zip 2e78fe5c0ff3:/home
 
@@ -13,5 +13,6 @@ sudo docker cp /home/pi/Desktop/v3.zip 2e78fe5c0ff3:/home
 python3 ECG_application.py s0 f1 p1 m1 RP4
 
 wget http://anzanpour.com/ml/v8.zip
+
 wget https://github.com/ardaviraf/pyml/raw/master/models/v6-arm-models.zip
 
