@@ -18,3 +18,15 @@ wget http://anzanpour.com/ml/v9.zip
 
 wget https://github.com/ardaviraf/pyml/raw/master/models/v6-arm-models.zip
 
+
+echo "21" > /sys/class/gpio/export
+
+echo "out" > /sys/class/gpio/gpio21/direction
+
+gpio readall
+
+gpio -g write 21 1
+
+gpio -g write 21 0
+
+echo "21" > /sys/class/gpio/unexport
